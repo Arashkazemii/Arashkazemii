@@ -5,9 +5,15 @@
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
+  <a href="https://www.linkedin.com/in/arash-kazemi-24894a2a2/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.youtube.com/@ArashKazemii" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
+  </a>
+  <a href="kazemiarash09@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
+  </a>
 </div>
 
 ###
@@ -23,6 +29,16 @@
 ###
 
 <p align="left">👋 Hey there! I'm Arash<br><br>💡 Data Scientist | 🧠 ML & AI Developer | 🤖 Automation Lover<br>🎯 Turning ideas into intelligent systems — one line of code at a time.<br>🔥 Obsessed with building smart tools that actually do stuff — not just sit around looking pretty.<br>🎓 Still studying, still learning, still dreaming big.<br><br>I break things so you don’t have to — and then I fix them with Python, a bit of caffeine, and a lot of curiosity.</p>
+
+###
+
+<h3 align="left">🎧 Music</h3>
+
+###
+
+<div align="center">
+  <img src="https://spotify-recently-played-readme.vercel.app/api?user=31636zm6qzl4n3i2v7n7cwqqrbzi" alt="Spotify recently played"  />
+</div>
 
 ###
 
@@ -84,12 +100,6 @@
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=Arashkazemii&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
-
-###
-
-<div align="center">
-  <img src="https://spotify-recently-played-readme.vercel.app/api?count=3&unique=true" alt="Spotify recently played"  />
 </div>
 
 ###
