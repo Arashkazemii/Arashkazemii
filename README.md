@@ -24,11 +24,7 @@
 
 ###
 
-<h3 align="left">👨‍💻  About Me</h3>
-
-###
-
-<p align="left">👋 Hey there! I'm Arash<br><br>💡 Data Scientist | 🧠 ML & AI Developer | 🤖 Automation Lover<br>🎯 Turning ideas into intelligent systems — one line of code at a time.<br>🔥 Obsessed with building smart tools that actually do stuff — not just sit around looking pretty.<br>🎓 Still studying, still learning, still dreaming big.<br><br>I break things so you don’t have to — and then I fix them with Python, a bit of caffeine, and a lot of curiosity.</p>
+<p align="left">👋 Hey its Arash<br><br>💡 Data Scientist | 🧠 ML & AI Developer | 🤖 Automation Builder<br>🎯 Turning ideas into intelligent systems — one line of code at a time.<br>🔥 Obsessed with building smart tools that actually do stuff — not just sit around looking pretty.<br><br>I break things — and then I fix them with a bit of caffeine, and a lot of curiosity.</p>
 
 ###
 
