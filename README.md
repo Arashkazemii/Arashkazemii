@@ -53,10 +53,42 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Arashkazemii&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Arashkazemii&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=dark&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=Arashkazemii&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=Arashkazemii&theme=onestar&column=5&row=1&margin-w=10&margin-h=8&no-bg=true&no-frame=true&order=4" height="150" alt="troph graph"  />
+
+  <picture>
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://github-readme-stats.vercel.app/api?username=Arashkazemii&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&disable_animations=false&theme=github_dark&hide_border=true&cache_seconds=7200&custom_title=GitHub%20Stats" />
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://github-readme-stats.vercel.app/api?username=Arashkazemii&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&disable_animations=false&theme=default&hide_border=true&cache_seconds=7200&custom_title=GitHub%20Stats" />
+    <img alt="GitHub Stats" height="150" src="https://github-readme-stats.vercel.app/api?username=Arashkazemii&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&disable_animations=false&hide_border=true&cache_seconds=7200" />
+  </picture>
+
+  <picture>
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Arashkazemii&layout=compact&langs_count=8&card_width=360&theme=github_dark&hide_border=true&cache_seconds=7200" />
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Arashkazemii&layout=compact&langs_count=8&card_width=360&theme=default&hide_border=true&cache_seconds=7200" />
+    <img alt="Top Languages" height="150" src="https://github-readme-stats.vercel.app/api/top-langs?username=Arashkazemii&layout=compact&langs_count=8&card_width=360&hide_border=true&cache_seconds=7200" />
+  </picture>
+
+  <picture>
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://streak-stats.demolab.com?user=Arashkazemii&mode=daily&theme=github-dark&hide_border=true&date_format=M%20j%5B,%20Y%5D&card_width=500" />
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://streak-stats.demolab.com?user=Arashkazemii&mode=daily&theme=default&hide_border=true&date_format=M%20j%5B,%20Y%5D&card_width=500" />
+    <img alt="Streak" height="210" src="https://streak-stats.demolab.com?user=Arashkazemii&mode=daily&hide_border=true&date_format=M%20j%5B,%20Y%5D&card_width=500" />
+  </picture>
+
+  <img 
+    alt="Trophies" 
+    src="https://github-profile-trophy.vercel.app?username=Arashkazemii&theme=onestar&column=5&row=1&margin-w=10&margin-h=8&no-bg=true&no-frame=true" 
+    height="140" />
+
 </div>
 
 ###
