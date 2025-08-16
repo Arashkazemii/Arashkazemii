@@ -84,10 +84,7 @@
     <img alt="Streak" height="210" src="https://streak-stats.demolab.com?user=Arashkazemii&mode=daily&hide_border=true&date_format=M%20j%5B,%20Y%5D&card_width=500" />
   </picture>
 
-  <img 
-    alt="Trophies" 
-    src="https://github-profile-trophy.vercel.app?username=Arashkazemii&theme=onestar&column=5&row=1&margin-w=10&margin-h=8&no-bg=true&no-frame=true" 
-    height="140" />
+  ![Custom Trophies](https://github-trophies.vercel.app/?username=Arashkazemii&theme=radical&no-frame=false&no-bg=false&margin-w=8&title=AchieveSSSRank,MultiLanguage,LongTimeUser,NewUser,Issues,Commits,PullRequest)
 
 </div>
 
