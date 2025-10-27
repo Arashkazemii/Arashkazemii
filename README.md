@@ -4,16 +4,21 @@
 
 ###
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/arash-kazemi-24894a2a2/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-<!--   </a>
-  <a href="https://www.youtube.com/@ArashKazemii" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
-  </a> -->
-  <a href="kazemiarash09@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
-  </a>
+<div align="center" style="font-family: 'Segoe UI', sans-serif; margin-top: 20px;">
+  <p style="font-size: 18px; font-weight: 600; color: #444;">🌐 My Connections</p>
+  
+  <div style="display: flex; justify-content: center; gap: 25px; margin-top: 10px;">
+    <a href="https://www.linkedin.com/in/arash-kazemi-24894a2a2/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="38" alt="LinkedIn" title="LinkedIn">
+    </a>
+    <a href="mailto:kazemiarash09@gmail.com" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="38" alt="Gmail" title="Gmail">
+    </a>
+    <a href="https://www.instagram.com/arashkazemii" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="38" alt="Instagram" title="Instagram">
+    </a>
+  </div>
+
 </div>
 
 ###
@@ -24,7 +29,7 @@
 
 ###
 
-<p align="left">👋 Hey its Arash<br><br>💡 Data Scientist | 🧠 ML & AI Developer | 🤖 Automation Builder<br>🎯 Turning ideas into intelligent systems — one line of code at a time.<br>🔥 Obsessed with building smart tools that actually do stuff — not just sit around looking pretty.<br><br>I break things — and then I fix them with a bit of caffeine, and a lot of curiosity.</p>
+<p align="left">👋 Hey it's Arash<br><br>💡 Data Scientist | 🧠 ML & AI Developer | 🤖 Automation Builder<br>🎯 Turning ideas into intelligent systems — one line of code at a time.<br>🔥 Obsessed with building smart tools that actually do stuff — not just sit around looking pretty.<br><br>I break things — and then I fix them with a bit of caffeine, and a lot of curiosity.</p>
 
 ###
 
