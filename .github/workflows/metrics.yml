@@ -1,10 +1,9 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
-# 👇 مهم: اجازه نوشتن به GITHUB_TOKEN
 permissions:
   contents: write
 
@@ -16,33 +15,35 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # خروجی را مستقیم commit کن
-          committer_branch: main              # اگر شاخه‌ی پیش‌فرضت چیز دیگری‌ست (مثلاً master) همین را بگذار
-          filename: github-metrics.svg        # نام فایل خروجی در ریشه ریپو
-          # output_action: commit             # پیش‌فرض commit است؛ می‌توانی صراحتاً هم بگذاری
-
-          user: Arashkazemii
+          committer_branch: main
+          filename: github-metrics.svg
           template: classic
-          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Tehran
 
-          # خطای پلاگین‌ها fatal نشود (برای پایداری)
-          plugins_errors_fatal: no
+          base: header, repositories
+          repositories: 100
+          repositories_affiliations: owner
 
-          # به‌جای plugin_streak از isocalendar استفاده کن
+          # تقویم ساده و شیک (به‌جای streak)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
+          # زبان‌ها (recent + درصد)
           plugin_languages: yes
-          plugin_languages_details: percentage
-          plugin_languages_limit: 12
           plugin_languages_sections: most-used, recently-used
+          plugin_languages_details: percentage
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 1000
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 2%
+          # plugin_languages_ignored: dotfiles,old-playground,templates
 
-          plugin_lines: yes
-          plugin_topics: yes
-          plugin_topics_mode: mastered
-          plugin_topics_limit: 12
-          plugin_followup: yes
-
-          # فعلاً Achievements را خاموش کن تا اخطار Projects Classic حذف شود
+          # بقیه خاموش برای سادگی
+          plugin_followup: no
+          plugin_topics: no
+          plugin_lines: no
           plugin_achievements: no
+          plugin_stargazers: no
+
+          plugins_errors_fatal: no
+          use_prebuilt_image: yes
