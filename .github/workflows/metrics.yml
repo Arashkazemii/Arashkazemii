@@ -4,6 +4,10 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
+# 👇 مهم: اجازه نوشتن به GITHUB_TOKEN
+permissions:
+  contents: write
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -11,41 +15,34 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: Arashkazemii
 
-          # پایه‌ها
+          # خروجی را مستقیم commit کن
+          committer_branch: main              # اگر شاخه‌ی پیش‌فرضت چیز دیگری‌ست (مثلاً master) همین را بگذار
+          filename: github-metrics.svg        # نام فایل خروجی در ریشه ریپو
+          # output_action: commit             # پیش‌فرض commit است؛ می‌توانی صراحتاً هم بگذاری
+
+          user: Arashkazemii
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Tehran
 
-          # خطاهای پلاگین باعث fail نشوند (برای پایدارسازی اولیه)
+          # خطای پلاگین‌ها fatal نشود (برای پایداری)
           plugins_errors_fatal: no
 
-          # تقویم/استریک (جایگزین plugin_streak)
+          # به‌جای plugin_streak از isocalendar استفاده کن
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # زبان‌ها
           plugin_languages: yes
           plugin_languages_details: percentage
           plugin_languages_limit: 12
           plugin_languages_sections: most-used, recently-used
-          # گزینه‌های اختیاری دقیق‌تر:
-          # plugin_languages_threshold: 2%
-          # plugin_languages_recent_days: 30
-          # plugin_languages_recent_load: 500
 
-          # خطوط کد (approx)
           plugin_lines: yes
-
-          # تاپیک‌ها
           plugin_topics: yes
           plugin_topics_mode: mastered
           plugin_topics_limit: 12
-
-          # پیگیری فعالیت ریپوها
           plugin_followup: yes
 
-          # دستاوردها – اگر باز هم خطا داد موقتاً no کن
-          plugin_achievements: yes
-          # plugin_achievements_threshold: C
+          # فعلاً Achievements را خاموش کن تا اخطار Projects Classic حذف شود
+          plugin_achievements: no
