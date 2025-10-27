@@ -14,7 +14,7 @@
     <a href="mailto:kazemiarash09@gmail.com" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="38" alt="Gmail" title="Gmail">
     </a>
-    <a href="https://www.instagram.com/arashkazemii" target="_blank">
+    <a href="https://www.instagram.com/arashkzm_" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="38" alt="Instagram" title="Instagram">
     </a>
   </div>
